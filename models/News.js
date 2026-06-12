@@ -16,6 +16,6 @@ const newsSchema = new mongoose.Schema({
         type: Array,
         required: true
         },
-},{ timestamps: true });
+},{ timestamps: true, });
 const News = mongoose.model('News', newsSchema);
 module.exports = News;
